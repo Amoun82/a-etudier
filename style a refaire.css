@@ -1,0 +1,33 @@
+/* l'entete du site avec menu et sous menu */
+h1
+{
+    color: brown;
+    text-align: center;
+}
+
+menu ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+menu ul li
+{
+    padding: 0 20px ;
+}
+
+menu ul li:hover .sous
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.sous
+{
+    display: none;
+    position :absolute ;
+    margin: 0;
+    padding: 0;
+}
